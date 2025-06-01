@@ -1,29 +1,20 @@
 {
-  "CIS 1.18": {
-    "description": "Ensure IAM policies are attached only to groups or roles",
-    "severity": "Medium",
-    "recommendation": "Avoid attaching policies directly to IAM users. Use roles or groups.",
-    "last_updated": "2024-12-01"
-  },
   "CIS 1.20": {
     "description": "Ensure IAM policies grant least privilege",
     "severity": "High",
     "recommendation": "Review and restrict overly permissive policies using IAM Access Analyzer.",
-    "last_updated": "2024-12-01"
+    "nist_function": "Protect"
   },
   "CIS 2.1.1": {
     "description": "Ensure S3 buckets are not publicly accessible",
     "severity": "High",
     "recommendation": "Enable block public access settings on all S3 buckets.",
-    "last_updated": "2024-12-01"
+    "nist_function": "Protect"
   },
-"CIS 4.1": {
-  "description": "Ensure no security groups allow unrestricted SSH access",
-  "severity": "High",
-  "recommendation": "Restrict ingress on port 22 to specific IPs or security groups",
-  "last_updated": "2025-05-31",
-  "version": "1.5",
-  "source": "https://www.cisecurity.org/benchmark/amazon_web_services"
+  "CIS 4.1": {
+    "description": "Ensure no security groups allow unrestricted SSH access",
+    "severity": "High",
+    "recommendation": "Restrict ingress on port 22 to specific IPs or security groups.",
+    "nist_function": "Protect"
+  }
 }
-}
-
