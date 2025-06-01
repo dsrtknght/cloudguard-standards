@@ -18,3 +18,12 @@
     "last_updated": "2024-12-01"
   }
 }
+,
+"CIS 4.1": {
+  "description": "Ensure no security groups allow unrestricted SSH access",
+  "severity": "High",
+  "recommendation": "Restrict ingress on port 22 to specific IPs or security groups",
+  "last_updated": "2025-05-31",
+  "version": "1.5",
+  "source": "https://www.cisecurity.org/benchmark/amazon_web_services"
+}
