@@ -16,9 +16,7 @@
     "severity": "High",
     "recommendation": "Enable block public access settings on all S3 buckets.",
     "last_updated": "2024-12-01"
-  }
-}
-,
+  },
 "CIS 4.1": {
   "description": "Ensure no security groups allow unrestricted SSH access",
   "severity": "High",
@@ -27,3 +25,5 @@
   "version": "1.5",
   "source": "https://www.cisecurity.org/benchmark/amazon_web_services"
 }
+}
+
