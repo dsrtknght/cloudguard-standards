@@ -1,0 +1,20 @@
+{
+  "CIS 1.18": {
+    "description": "Ensure IAM policies are attached only to groups or roles",
+    "severity": "Medium",
+    "recommendation": "Avoid attaching policies directly to IAM users. Use roles or groups.",
+    "last_updated": "2024-12-01"
+  },
+  "CIS 1.20": {
+    "description": "Ensure IAM policies grant least privilege",
+    "severity": "High",
+    "recommendation": "Review and restrict overly permissive policies using IAM Access Analyzer.",
+    "last_updated": "2024-12-01"
+  },
+  "CIS 2.1.1": {
+    "description": "Ensure S3 buckets are not publicly accessible",
+    "severity": "High",
+    "recommendation": "Enable block public access settings on all S3 buckets.",
+    "last_updated": "2024-12-01"
+  }
+}
